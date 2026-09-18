@@ -87,13 +87,13 @@ int main() {
 
 // writing the actual function now, after the tests
 bool isSorted(const int* arr, const int size) {
-    return false; // placeholder, not implemented yet
-    /*
+    //real implementation
+    
     for (int i = 0; i < size - 1; i++) {
         if (arr[i] > arr[i + 1]) {
             return false;
         }
     }
     return true;
-    */
+    
 }
